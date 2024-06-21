@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="firstContainer">
+        <div class="outerContainer secondContainer">
+           <h1>All books </h1>
+           <div class="headerSeach"><input type="search" id="searchInput" placeholder="Enter title ">
+           <button class="searchButton">Search</button></div>
+
+           <select name="books" id="selectBooks">
+               <option value="allGenres"> All genres</option>
+               <option value="fantastic">Fantastic</option>
+               <option value="romantic">Drama</option>
+               <option value="trailer">horror</option>
+           </select>
+        </div>
+       
+                       <br/><br/><br/>
+
+        <div class="outerContainer mainContainer">
+               <div class="innerContainer leftSide">
+                   <h2>Discover</h2>
+                      <a href="#">
+                      <div class="asideIcons">
+                       <img src="/books-app/home.png" alt="icon">
+                       <h3>Home</h3>
+                      </div>
+                      </a>
+
+                      <a href="#">
+                      <div class="asideIcons">
+                       <img src="/books-app/search.png" alt="icon">
+                       <h3>Browse</h3>
+                      </div> 
+                       </a>
+                       <a href="#">
+                      <div class="asideIcons">
+                       <img src="/books-app/antenna.png" alt="icon">
+                       <h3>Radio</h3>
+                       </div>
+                      </a>
+
+                       <h2>Library</h2>
+                       <a href="#">
+                          <div class="asideIcons">
+                           <img src="/books-app/list.png" alt="icon">
+                           <h3>Book list</h3>
+                          </div>
+                       </a>
+
+                       <a href="#">
+                          <div class="asideIcons">
+                           <img src="/books-app/music.png" alt="icon">
+                           <h3>Audio books</h3>
+                          </div> 
+                       </a>
+                       <a href="#">
+                          <div class="asideIcons">
+                           <img src="/books-app/smile.png" alt="icon">
+                           <h3>Personalized picks</h3>
+                           </div>
+                       </a>
+               </div>
+                                    
+               <div class="rightSide">
+               <div id="product-list"></div>
+            
+              </div>
+
+
+
+
+ 
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+#firstContainer{
+    width: 100rem;
+    height: 100rem;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.secondContainer{
+    width: 100rem;
+    height: 5rem;
+    /* background-color:aqua; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+   gap: 30%;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+.mainContainer{
+    width: 100rem;
+    height: 40rem;
+    display: flex;
+
+}
+.leftSide{
+    width: 20rem;
+    height: 100rem;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+.rightSide{
+   border-left: 1.5px solid rgb(212, 210, 210);
+   padding-left: 50px;
+   display: flex;
+   gap: 4%;
+  
+
+}
+#searchInput{
+    border: 1px solid rgb(156, 154, 154);
+    border-radius: 7px;
+    height: 25px;
+}
+.searchButton{
+    border-radius: 7px;
+    display: block;
+    height: 25px;
+    width: 60px;
+    background-color: rgb(16, 15, 15);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerSeach{
+    display: flex;
+    gap: 1%;
+}
+.asideIcons{
+    display: flex;
+   align-items: center;
+    gap: 3%;
+}
+.imagesContainer{
+    width: 180px;
+    height: 370px;   
+}
+.imgBooks{
+    width: 150px;
+    background-color: rgb(79, 74, 74);
+    box-shadow: 10px 20px 20px 0 rgba(0, 0, 0, 0.2);;
+    
+}
+.books{
+    width: 200px;
+    background-color: rgb(226, 229, 237);
+    height: 450px;
+    display: flex;
+    gap: 4%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+#product-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+}
